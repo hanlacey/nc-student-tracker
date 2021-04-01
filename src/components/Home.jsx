@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "@reach/router";
-import Button from "";
 const Home = () => {
   return (
     <div>
-      <Link to="/api/students">Student list</Link>
+      <Link to="/students">Student list</Link>
     </div>
   );
 };
